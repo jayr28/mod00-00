@@ -1,5 +1,70 @@
-	body {
-		/*background-color: red;}*/*
+* {
+	padding: 0;
+	margin: 0:;
+	font-family: 'Faster One', cursive
+	}
 
-		/*
+
+body {
+		/*background-color: red;}*/
+
+	}
+
 		
+#Main-section{
+	background-color: yellow;
+		}
+.about {
+	width: 60%;
+	/*margin: 0 auto;*/
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.my-picture {
+	height: 150px;
+	padding: 3px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+}
+
+h1 { 
+color: #fff;
+font-size: 50px;
+font-weight: normal;
+ }
+#dev-description {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	
+
+}
+#Portfolio-Section{
+	background-color: darkgrey
+	font-family: 'Catamaran', sans-serif;
+}
+
+#Skills-Section{
+	background-color: yellow;
+	}
+#About-Section{
+	background-color: lightgrey;
+}
+
+#Main-Section,
+#Portfolio-Section,
+#Skills-Section,
+#About-Section {
+	height: 100vh;
+}
+
+
+
+
+
+
