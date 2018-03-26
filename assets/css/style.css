@@ -1,7 +1,7 @@
 * {
 	padding: 0;
 	margin: 0:;
-	font-family: 'Faster One', cursive
+	
 	}
 
 
@@ -11,9 +11,27 @@ body {
 	}
 
 		
-#Main-section{
-	background-color: yellow;
+#main-section{
+	background-color: darkgrey;
+	background: url('../img/background.jpg') no-repeat;
+	background-size: 1500px 550px;
+	font-family: 'Alegreya', serif;
 		}
+
+section#main-section > a {
+	color: black;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+
+}
+
+a[href="https://github.com/jayr28"] {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
 .about {
 	width: 60%;
 	/*margin: 0 auto;*/
@@ -22,6 +40,8 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	text-decoration-color: darkgrey;
+
 }
 
 .my-picture {
@@ -41,12 +61,15 @@ font-weight: normal;
 #dev-description {
 	padding-top: 15px;
 	padding-bottom: 15px;
+	font-family: 'Catamaran', sans-serif;
+ 
+}
 	
 
 }
 #Portfolio-Section{
-	background-color: darkgrey
-	font-family: 'Catamaran', sans-serif;
+	background-color: darkgrey;
+
 }
 
 #Skills-Section{
@@ -56,7 +79,7 @@ font-weight: normal;
 	background-color: lightgrey;
 }
 
-#Main-Section,
+#main-section,
 #Portfolio-Section,
 #Skills-Section,
 #About-Section {
